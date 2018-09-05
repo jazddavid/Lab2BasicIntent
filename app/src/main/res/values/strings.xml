@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab2-Layout</string>
+    <string name="location">Location: </string>
+    <string name="distance">Distance from UST: </string>
+    <string name="back">BACK</string>
+    <string name="next">NEXT</string>
+</resources>

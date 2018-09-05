@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical"
+    android:background="@android:color/black"
+    >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="201dp"
+        app:srcCompat="@drawable/ain" />
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_gravity="center_vertical|fill_horizontal"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="AINCRAD"
+        android:textColor="@color/colorPrimary"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/julian"
+        tools:fontFamily="@font/julian"
+        tools:textColor="@color/colorPrimary"
+        tools:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/location1"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_marginLeft="10sp"
+        android:gravity="left|center_vertical"
+        android:text="@string/location"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/julian"
+        tools:fontFamily="@font/julian"
+        tools:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/distance1"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginLeft="10sp"
+        android:gravity="left|center_vertical"
+        android:text="@string/distance"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/julian"
+        tools:fontFamily="@font/julian"
+        tools:textColor="@color/colorPrimary" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/back1"
+            android:layout_width="50dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30sp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="@string/back"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:background="@color/colorPrimary"
+            tools:fontFamily="@font/julian"
+            android:fontFamily="@font/julian"/>
+
+        <Button
+            android:id="@+id/next1"
+            android:layout_width="50dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="70sp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30sp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="@string/next"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:background="@color/colorPrimary"
+            tools:fontFamily="@font/julian"
+            android:fontFamily="@font/julian"/>
+    </LinearLayout>
+</LinearLayout>
+
